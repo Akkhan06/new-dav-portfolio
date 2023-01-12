@@ -1,0 +1,91 @@
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    /* header section */
+    header{
+        background-image: none;
+    }
+nav{
+    margin: 0px 50px;
+}
+  .banner{
+        flex-direction: column;
+        margin: 0px 50px;
+    }
+.specialBtn{
+    margin: 10px;
+}
+    .continer img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+    /* main and about section */
+    main{
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+    }
+    .ima{
+        width: 90%;
+        padding: 20px;
+    }
+    .option{
+        margin: 0px 10px;
+    }
+
+
+    /* about section end */
+
+    /* skill section */
+
+    .skill, .resume{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .skill-section{
+        flex-direction: column;
+    }
+
+    .skill-option{
+        margin-top: 10px;
+        margin: 5px auto;
+    }
+
+
+    /* resume section */
+
+    .resume{
+        text-align: center;
+    }
+
+    .resumeSkill{
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+    .resume-option{
+        padding: 30px;
+    }
+
+    /* footer section */
+
+    footer{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footerMain p{
+        padding: 20px;
+    }
+}

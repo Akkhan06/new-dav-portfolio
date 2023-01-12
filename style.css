@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Syne:wght@600;700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #FFF8F3;
+    padding-top: 50px;
+    background-image: url(portfolio-resources/images/header_bg.png), url(portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    justify-items: center;
+   
+}
+
+nav h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.colorPrimary {
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    height: 40px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin-left:200px;
+    margin-top: 50px;
+    
+}
+
+
+
+.banner h1{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 5px;
+}
+
+.banner p{
+    margin-top: 20px;
+    font-family: 'Open Sans';
+}
+
+.banner button{
+    margin-top: 30px;
+}
+
+/* main section */
+main{
+    width: 1140px;
+    margin:0px auto;
+}
+
+/* about section */
+
+.about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.ima{
+    font-family: 'Open Sans';
+    margin-top: 30px;
+    width: 909px;
+    margin: 30px auto;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.option{
+    margin: 0px 25px;
+}
+
+
+
+/* skill section */
+
+.skill{
+margin-top: 100px;
+}
+
+.skill-dis{
+    text-align: center;
+}
+
+.skill-section{
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.skill-option{
+    max-width:267px;
+    padding: 0px 30px;
+    margin-top: 50px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+
+.skill-option h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 30px;
+}
+
+.skill-option p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin: 20px 0px;
+}
+
+.skill-option img{
+    width: 44px;
+    height: 44px;
+}
+
+/* Resume section */
+
+.resume{
+    margin-top: 100px;
+    
+}
+
+.mainResume{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.resumeSkill{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.resume-option{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.resume-option h2{
+    margin-bottom: 30px;
+}
+
+.resume-option h6{
+    margin: 10px 0px 20px 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #757575;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 100px;
+   
+
+}
+
+.footerMain{
+    max-width: 530px;
+}
+
+.footerMain h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    }
+
+    .footerMain p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .image img:nth-child(2){
+        margin: 0px 25px;
+    }
+
+    form input , textarea{
+        width: 261px;
+        height: 34px;
+        border: none;
+        padding: 18px 0px 18px 30px;
+        margin-top: 20px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #757575;
+    }
+
+    form button{
+        padding: 18px 39px !important;
+        height: auto !important;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+
+        /* White Color */
+
+        color: #FFFFFF;
+    }
+
+
